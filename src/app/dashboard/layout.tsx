@@ -14,8 +14,8 @@ export default function DashboardLayout({
       {/* <Header/>  */}
   <div  className="container  w-[95%]  mx-auto  py-10     ">
 
-     <div   className="     mt-10   rounded-lg       md:mb-10      ">
-      <Image  src="/cat.jpg" alt="dashboard"  width={1000} height={500}  className="  w-full  h-36  md:h-60   object-cover  rounded-lg    "/>
+     <div   className="     mt-10   rounded-lg  relative    md:mb-10    w-full  h-36  md:h-60    ">
+      <Image  src="/cat.jpg" alt="dashboard"  fill  className="   object-cover  rounded-lg    "/>
      </div>
 
         <div  className="   flex  container  w-[95%]    mx-auto   justify-between   items-center     mb-5    ">
