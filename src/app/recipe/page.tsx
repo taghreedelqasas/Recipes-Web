@@ -114,7 +114,7 @@ function RecipeContent() {
 
       {/* Decorative chef image */}
       <div className='chefImg flex justify-end -translate-y-10 mx-auto'>
-        <Image src="/chef.png" alt="chef image" width={150} height={150} className='-rotate-12 opacity-5 me-0'/>
+        <Image src="/images/chef.png" alt="chef image" width={150} height={150} className='-rotate-12 opacity-5 me-0'/>
       </div>
     </div>
   )
