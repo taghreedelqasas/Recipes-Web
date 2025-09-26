@@ -30,7 +30,7 @@ export default function Header() {
           <span  className='  text-[10px] font-light  ps-2  text-gray-300  ' >COOK WITH CARE</span>
           <h1  className="lg:text-[60px]  text-3xl   md:text-4xl  poppins.classname      lg:leading-16   lg:w-2/3  italic"> Your Home for Tasty Recipes 
 <svg
-  className="mx-auto -mt-3 w-32 h-auto sm:w-40   lg:w-56"
+  className="mx-auto   w-32 h-auto sm:w-40  -translate-x-32 md:-translate-x-0    lg:w-56"
   viewBox="0 0 193 22"
   fill="none"
   xmlns="http://www.w3.org/2000/svg"
