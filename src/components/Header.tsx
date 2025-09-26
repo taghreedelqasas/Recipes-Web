@@ -57,7 +57,7 @@ export default function Header() {
           transition={{ duration: 5 ,ease:'linear',repeat: Infinity, repeatDelay: 1 }}
        
            className='  relative  pt-20  md:pt-0       md:w-1/2     w-full    flex   justify-center    items-center   '>
-          <img src="/images/first.png" alt="recipe image"  className='    w-64  md:w-full'/>
+          <img  src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d" alt="recipe image"  width={400}   height={400}  className='    w-64  md:w-full'/>
 
          </motion.div>
 
