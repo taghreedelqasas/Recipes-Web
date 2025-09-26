@@ -19,7 +19,6 @@ const poppins = Poppins({
 export default function Header() {
   return (
     <div  id='home'   className='  lg:p-2  pb-20  md:py-10   md:h-dvh   flex   overflow-y-hidden  overflow-x-hidden     container  w-[90%]   mx-auto   home   '>
-      <Image src="/images/about2.jpg" alt="background image"  fill  className="   object-cover  absolute   -z-10    "/>
       <div  className=' md:flex-row  flex    flex-col-reverse  gap-5 md:gap-0  justify-center     justify-items-center   md:py-14     md:justify-between   w-[95%]   mx-auto      z-0  md:items-center    '>
         <motion.div 
           initial={{ x: -100, opacity: 0 }}
