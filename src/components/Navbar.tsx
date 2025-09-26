@@ -67,10 +67,10 @@ export default function Navbar() {
                     <a href='/dashboard/Beef'  className=' hover:text-[#FEBD2F]   '>Categories</a>
                 </li>
                 <li>    
-                    <a href='#'  className=' hover:text-[#FEBD2F]   '>About</a>
+                    <a href='/#about'  className=' hover:text-[#FEBD2F]   '>About</a>
                 </li>
                 <li>    
-                    <a href='#'  className=' hover:text-[#FEBD2F]   '>Contact</a>
+                    <a href='/#contact'  className=' hover:text-[#FEBD2F]   '>Contact</a>
                 </li>
             </ul>
         </SheetContent>
