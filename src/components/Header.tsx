@@ -1,6 +1,7 @@
 'use client'
 import React from 'react'
 import { Playfair_Display, Poppins } from "next/font/google";
+import first from '../assets/first.png'
 import Image from 'next/image'
 import {motion} from 'framer-motion'
 
@@ -57,7 +58,7 @@ export default function Header() {
           transition={{ duration: 5 ,ease:'linear',repeat: Infinity, repeatDelay: 1 }}
        
            className='  relative  pt-20  md:pt-0       md:w-1/2     w-full    flex   justify-center    items-center   '>
-          <img  src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d" alt="recipe image"  width={400}   height={400}  className='    w-64  md:w-full'/>
+          <Image  src={first} alt="recipe image"  width={400}   height={400}  className='    w-64  md:w-full'/>
 
          </motion.div>
 
