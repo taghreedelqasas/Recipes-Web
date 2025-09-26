@@ -28,7 +28,7 @@ export default function About() {
 
         
         className='aboutImag     w-1/3      lg:relative   z-10    '>
-            <Image src="/images/about.png" alt="about image"   width={300} height={300}   className=' lg:relative    '/>
+            <Image src="https://i.ibb.co/d0bh86hT/about.png" alt="about image"   width={300} height={300}   className=' lg:relative    '/>
 
         </motion.div>
  <svg className="absolute  w-36    md:w-72      z-0" viewBox="0 0 410 396" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -56,7 +56,7 @@ export default function About() {
  
         <div 
         className='  chefImg      flex   justify-end       mx-auto   -translate-y-10      '>
-            <Image src="/images/chef.png" alt="chef image"   width={150} height={150}   className='-rotate-12  opacity-5   me-0 '/>
+            <Image src="https://i.ibb.co/Hpxvx6kc/chef.png" alt="chef image"   width={150} height={150}   className='-rotate-12  opacity-5   me-0 '/>
             </div> 
        </div>
   )

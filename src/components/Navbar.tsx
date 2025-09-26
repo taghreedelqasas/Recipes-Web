@@ -22,7 +22,7 @@ export default function Navbar() {
   return (
     <div   className='     text-black    px-10    z-50       bg-[#0E1326]        fixed       w-full  flex         justify-between   md:items-center   py-3   md:px-20    rounded-b-3xl    shadow-lg    '>
         <div  className='logo   '>  
-            <a  href='/'    >   <Image src="/images/logo2.png" alt="logo"  width={100}  height={50}  className='h-10  md:ms-10    w-30   object-cover   '/>  </a>
+            <a  href='/'    >   <Image src="https://i.ibb.co/9mYkqcH7/logo2.png" alt="logo"  width={100}  height={50}  className='h-10  md:ms-10    w-30   object-cover   '/>  </a>
             {/* <Image src={logo} alt="logo"    className='h-10  md:ms-10    w-30   object-cover   '/> */}
         </div>
         {/* large devices  */}

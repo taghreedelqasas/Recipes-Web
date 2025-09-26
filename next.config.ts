@@ -6,7 +6,9 @@ const nextConfig: NextConfig = {
   ignoreDuringBuilds: true,
 },
   images: {
-    domains: ['www.themealdb.com'],
+    domains: ['www.themealdb.com','i.ibb.co'], 
+   
+
     unoptimized: true,   // <--- أضف هنا أي domain خارجي هتجيب منه الصور
   },
 };
