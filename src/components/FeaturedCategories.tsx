@@ -28,7 +28,7 @@ export default function FeaturedCategories() {
 
              console.log(categories);
           if (!mounted) return null
-          if (loading) return <p className="text-white">Loading...</p>
+          if (loading) return <p className="text-white  text-center">Loading...</p>
   return (
     <div    className='featured   py-5   shadow-2xl           bg-[#171C2E]   md:pt-0      h-auto    '>
         <motion.div 
