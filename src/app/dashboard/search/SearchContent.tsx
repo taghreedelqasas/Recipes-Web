@@ -27,7 +27,7 @@ export default function SearchContent() {
         {meals.length > 0 ? (
           meals.map((meal) => (
             <Link key={meal.idMeal} href={`/recipe?q=${meal.idMeal}`}>
-              <div className="md:w-50 w-24 bg-[#394050] p-2 rounded-lg shadow-md overflow-hidden">
+              <div className="md:w-50 w-24 bg-[#394050] p-2 rounded-lg shadow-md overflow-hidden h-40  md:h-60 hover:scale-105 transition-transform duration-200 ease-in-out">
                 <img src={meal.strMealThumb} alt={meal.strMeal} className="rounded" />
                 <h2 className="py-2 text-white text-sm font-light">{meal.strMeal}</h2>
               </div>
