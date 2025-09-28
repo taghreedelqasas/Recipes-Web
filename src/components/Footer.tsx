@@ -28,7 +28,7 @@ export default function Footer() {
        
         </div>
      
-        <div className='text-white mb-4 md:mb-0  flex-col  flex  input  w-1/3'>
+        <div className='text-white mb-4 md:mb-0  flex-col  flex  input  md:w-1/3  w-full'>
         <h3 className='  font-bold   md:text-lg  mb-5 '>Stay Updated</h3>
         <p className='text-gray-400'>Join our newsletter to get the latest recipes and cooking tips straight to your inbox!</p>
         <div>

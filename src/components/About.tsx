@@ -56,7 +56,7 @@ export default function About() {
  
         <div 
         className='  chefImg      flex   justify-end       mx-auto   -translate-y-10      '>
-            <Image src="https://i.ibb.co/Hpxvx6kc/chef.png" alt="chef image"   width={150} height={150}   className='-rotate-12  opacity-5   me-0 '/>
+            <Image src="https://res.cloudinary.com/dkkog1iij/image/upload/v1758596126/chef_hs91ld.png" alt="chef image"   width={150} height={150}   className='-rotate-12  opacity-5   me-0 '/>
             </div> 
        </div>
   )

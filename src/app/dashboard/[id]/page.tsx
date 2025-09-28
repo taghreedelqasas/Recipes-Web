@@ -40,7 +40,7 @@ export default function HomeDash({ params }: { params: Promise<{ id: string }> }
     }
   }, [id])
 
-  // 🔹 Loading 
+  //  Loading 
   if (loading) {
     return (
       <div className="h-screen w-full flex  justify-center    items-center">
@@ -49,7 +49,7 @@ export default function HomeDash({ params }: { params: Promise<{ id: string }> }
     )
   }
 
-  // 🔹 Error 
+  //  Error 
   if (error) {
     return (
       <div className="h-screen w-full flex justify-center items-center text-red-500">
@@ -58,13 +58,13 @@ export default function HomeDash({ params }: { params: Promise<{ id: string }> }
     )
   }
 
-  // 🔹 display data
+  //  display data
   return (
     <div className="font-bold w-full text-lg h-1/2 max-h-[700px] scrollbar-hide overflow-y-auto rounded-lg p-3">
       <div className="flex mealDisplay gap-3 justify-evenly flex-wrap">
         {meals.map((item) => (
           <Link key={item.idMeal} href={`/recipe?q=${item.idMeal}`}>
-            <div className="md:w-50 w-24 bg-[#394050] p-2 rounded-lg shadow-md overflow-hidden">
+            <div className="md:w-50 w-24 bg-[#394050] p-2 rounded-lg shadow-md overflow-hidden  hover:scale-105 transition-transform duration-200 ease-in-out  h-40  md:h-60">
               <img
                 src={item.strMealThumb}
                 alt={item.strMeal}

@@ -87,7 +87,7 @@ function RecipeContent() {
 
           <div className='mt-5 flex gap-5'>
             <h3 className='md:text-3xl text-xl font-bold italic md:py-5 md:text-[#f1e7d8]'>Preparation:</h3>
-            <Lottie animationData={cookingAnimation} className='md:w-20 md:h-20 w-10 h-10'/>
+            <Lottie animationData={cookingAnimation} className='md:w-20 md:h-20 w-10 h-10   bg-[#0E1326] p-2 md:p-0     rounded-full  md:bg-transparent'/>
           </div>
 
           <motion.div whileInView={{ scale: 1, opacity: 1 }} initial={{ scale: 0.5, opacity: 0 }} transition={{ duration: 1, ease: "easeInOut" }}>
@@ -114,7 +114,7 @@ function RecipeContent() {
 
       {/* Decorative chef image */}
       <div className='chefImg flex justify-end -translate-y-10 mx-auto'>
-        <Image src="https://i.ibb.co/Hpxvx6kc/chef.png" alt="chef image" width={150} height={150} className='-rotate-12 opacity-5 me-0'/>
+        <Image src="https://res.cloudinary.com/dkkog1iij/image/upload/v1758596126/chef_hs91ld.png" alt="chef image" width={150} height={150} className='-rotate-12 opacity-5 me-0'/>
       </div>
     </div>
   )
